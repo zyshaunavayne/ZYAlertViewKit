@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A714FC329927AC00083A497 /* ZYAlertViewKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A714FC229927AC00083A497 /* ZYAlertViewKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A714FCB29927ACE0083A497 /* ZYAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A714FC929927ACE0083A497 /* ZYAlertView.h */; };
+		2A714FCC29927ACE0083A497 /* ZYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A714FCA29927ACE0083A497 /* ZYAlertView.m */; };
+		2AE961DA2993879D0070ED34 /* ZYAlertViewKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2AE961D92993879D0070ED34 /* ZYAlertViewKit.podspec */; };
+		2AE961DC299387A30070ED34 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2AE961DB299387A30070ED34 /* README.md */; };
+		2AE961E5299388490070ED34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE961E4299388490070ED34 /* AppDelegate.m */; };
+		2AE961E8299388490070ED34 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE961E7299388490070ED34 /* SceneDelegate.m */; };
+		2AE961EB299388490070ED34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE961EA299388490070ED34 /* ViewController.m */; };
+		2AE961EE299388490070ED34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE961EC299388490070ED34 /* Main.storyboard */; };
+		2AE961F02993884B0070ED34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE961EF2993884B0070ED34 /* Assets.xcassets */; };
+		2AE961F32993884B0070ED34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE961F12993884B0070ED34 /* LaunchScreen.storyboard */; };
+		2AE961F62993884B0070ED34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE961F52993884B0070ED34 /* main.m */; };
+		2AE961FB299388600070ED34 /* ZYAlertViewKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A714FBF29927AC00083A497 /* ZYAlertViewKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A714FBF29927AC00083A497 /* ZYAlertViewKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZYAlertViewKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A714FC229927AC00083A497 /* ZYAlertViewKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYAlertViewKit.h; sourceTree = "<group>"; };
+		2A714FC929927ACE0083A497 /* ZYAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYAlertView.h; sourceTree = "<group>"; };
+		2A714FCA29927ACE0083A497 /* ZYAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYAlertView.m; sourceTree = "<group>"; };
+		2AE961D92993879D0070ED34 /* ZYAlertViewKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZYAlertViewKit.podspec; sourceTree = "<group>"; };
+		2AE961DB299387A30070ED34 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2AE961E1299388490070ED34 /* ZYAlertViewKit iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZYAlertViewKit iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE961E3299388490070ED34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AE961E4299388490070ED34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AE961E6299388490070ED34 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2AE961E7299388490070ED34 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2AE961E9299388490070ED34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2AE961EA299388490070ED34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2AE961ED299388490070ED34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AE961EF2993884B0070ED34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AE961F22993884B0070ED34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AE961F42993884B0070ED34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE961F52993884B0070ED34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A714FBC29927AC00083A497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE961DE299388490070ED34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE961FB299388600070ED34 /* ZYAlertViewKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A714FB529927AC00083A497 = {
+			isa = PBXGroup;
+			children = (
+				2AE961DB299387A30070ED34 /* README.md */,
+				2AE961D92993879D0070ED34 /* ZYAlertViewKit.podspec */,
+				2A714FC129927AC00083A497 /* ZYAlertViewKit */,
+				2AE961E2299388490070ED34 /* ZYAlertViewKit iOS Example */,
+				2A714FC029927AC00083A497 /* Products */,
+				2AE961FA299388600070ED34 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A714FC029927AC00083A497 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A714FBF29927AC00083A497 /* ZYAlertViewKit.framework */,
+				2AE961E1299388490070ED34 /* ZYAlertViewKit iOS Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A714FC129927AC00083A497 /* ZYAlertViewKit */ = {
+			isa = PBXGroup;
+			children = (
+				2A714FC229927AC00083A497 /* ZYAlertViewKit.h */,
+				2A714FC929927ACE0083A497 /* ZYAlertView.h */,
+				2A714FCA29927ACE0083A497 /* ZYAlertView.m */,
+			);
+			path = ZYAlertViewKit;
+			sourceTree = "<group>";
+		};
+		2AE961E2299388490070ED34 /* ZYAlertViewKit iOS Example */ = {
+			isa = PBXGroup;
+			children = (
+				2AE961E3299388490070ED34 /* AppDelegate.h */,
+				2AE961E4299388490070ED34 /* AppDelegate.m */,
+				2AE961E6299388490070ED34 /* SceneDelegate.h */,
+				2AE961E7299388490070ED34 /* SceneDelegate.m */,
+				2AE961E9299388490070ED34 /* ViewController.h */,
+				2AE961EA299388490070ED34 /* ViewController.m */,
+				2AE961EC299388490070ED34 /* Main.storyboard */,
+				2AE961EF2993884B0070ED34 /* Assets.xcassets */,
+				2AE961F12993884B0070ED34 /* LaunchScreen.storyboard */,
+				2AE961F42993884B0070ED34 /* Info.plist */,
+				2AE961F52993884B0070ED34 /* main.m */,
+			);
+			path = "ZYAlertViewKit iOS Example";
+			sourceTree = "<group>";
+		};
+		2AE961FA299388600070ED34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A714FBA29927AC00083A497 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A714FC329927AC00083A497 /* ZYAlertViewKit.h in Headers */,
+				2A714FCB29927ACE0083A497 /* ZYAlertView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A714FBE29927AC00083A497 /* ZYAlertViewKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A714FC629927AC00083A497 /* Build configuration list for PBXNativeTarget "ZYAlertViewKit" */;
+			buildPhases = (
+				2A714FBA29927AC00083A497 /* Headers */,
+				2A714FBB29927AC00083A497 /* Sources */,
+				2A714FBC29927AC00083A497 /* Frameworks */,
+				2A714FBD29927AC00083A497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYAlertViewKit;
+			productName = ZYAlertViewKit;
+			productReference = 2A714FBF29927AC00083A497 /* ZYAlertViewKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2AE961E0299388490070ED34 /* ZYAlertViewKit iOS Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AE961F72993884B0070ED34 /* Build configuration list for PBXNativeTarget "ZYAlertViewKit iOS Example" */;
+			buildPhases = (
+				2AE961DD299388490070ED34 /* Sources */,
+				2AE961DE299388490070ED34 /* Frameworks */,
+				2AE961DF299388490070ED34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZYAlertViewKit iOS Example";
+			productName = "ZYAlertViewKit iOS Example";
+			productReference = 2AE961E1299388490070ED34 /* ZYAlertViewKit iOS Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A714FB629927AC00083A497 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					2A714FBE29927AC00083A497 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					2AE961E0299388490070ED34 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 2A714FB929927AC00083A497 /* Build configuration list for PBXProject "ZYAlertViewKit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A714FB529927AC00083A497;
+			productRefGroup = 2A714FC029927AC00083A497 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A714FBE29927AC00083A497 /* ZYAlertViewKit */,
+				2AE961E0299388490070ED34 /* ZYAlertViewKit iOS Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A714FBD29927AC00083A497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE961DC299387A30070ED34 /* README.md in Resources */,
+				2AE961DA2993879D0070ED34 /* ZYAlertViewKit.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE961DF299388490070ED34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE961F32993884B0070ED34 /* LaunchScreen.storyboard in Resources */,
+				2AE961F02993884B0070ED34 /* Assets.xcassets in Resources */,
+				2AE961EE299388490070ED34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A714FBB29927AC00083A497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A714FCC29927ACE0083A497 /* ZYAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE961DD299388490070ED34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE961EB299388490070ED34 /* ViewController.m in Sources */,
+				2AE961E5299388490070ED34 /* AppDelegate.m in Sources */,
+				2AE961F62993884B0070ED34 /* main.m in Sources */,
+				2AE961E8299388490070ED34 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AE961EC299388490070ED34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AE961ED299388490070ED34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AE961F12993884B0070ED34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AE961F22993884B0070ED34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A714FC429927AC00083A497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A714FC529927AC00083A497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A714FC729927AC00083A497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaunavayne.ZYAlertViewKit.ZYAlertViewKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A714FC829927AC00083A497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaunavayne.ZYAlertViewKit.ZYAlertViewKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2AE961F82993884B0070ED34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ZYAlertViewKit iOS Example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shaunavayne.ZYProgressHUDKit.ZYAlertViewKit-iOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AE961F92993884B0070ED34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ZYAlertViewKit iOS Example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shaunavayne.ZYProgressHUDKit.ZYAlertViewKit-iOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A714FB929927AC00083A497 /* Build configuration list for PBXProject "ZYAlertViewKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A714FC429927AC00083A497 /* Debug */,
+				2A714FC529927AC00083A497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A714FC629927AC00083A497 /* Build configuration list for PBXNativeTarget "ZYAlertViewKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A714FC729927AC00083A497 /* Debug */,
+				2A714FC829927AC00083A497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AE961F72993884B0070ED34 /* Build configuration list for PBXNativeTarget "ZYAlertViewKit iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AE961F82993884B0070ED34 /* Debug */,
+				2AE961F92993884B0070ED34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A714FB629927AC00083A497 /* Project object */;
+}
