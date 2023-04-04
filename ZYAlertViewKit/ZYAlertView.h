@@ -128,6 +128,23 @@ typedef NS_ENUM(NSInteger, ZYAlertViewStyle) {
             preferredStyle:(ZYAlertViewStyle)preferredStyle
                    actions:(NSArray <ZYAlertAction *>*)actions;
 
+
+/// 显示带取消/确定的两个按钮。常用取消-确定/删除
+/// @param title 显示标题
+/// @param message 显示内容
+/// @param cancle 取消
+/// @param sure 确定/删除，默认系统红色
+/// @param sureStyle 确定/删除 的style
+/// @param cancleAction 取消事件
+/// @param sureAciton 确定/删除事件
++ (void)showAlertWithTitle:(NSString *)title
+                   message:(NSString *)message
+                    cancle:(NSString *)cancle
+                      sure:(NSString *)sure
+                 sureStyle:(ZYAlertActionStyle)sureStyle
+              cancleAction:(void (^)(ZYAlertAction *action))cancleAction
+                sureAciton:(void (^)(ZYAlertAction *action))sureAciton;
+
 /// title
 @property (nonatomic, copy) NSString *title;
 /// titleColor

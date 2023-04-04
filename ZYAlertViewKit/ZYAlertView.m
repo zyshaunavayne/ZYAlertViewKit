@@ -311,6 +311,25 @@
     [alertView show];
 }
 
++ (void)showAlertWithTitle:(NSString *)title
+                   message:(NSString *)message
+                    cancle:(NSString *)cancle
+                      sure:(NSString *)sure
+                 sureStyle:(ZYAlertActionStyle)sureStyle
+              cancleAction:(void (^)(ZYAlertAction *))cancleAction
+                sureAciton:(void (^)(ZYAlertAction *))sureAciton
+{
+    ZYAlertView *alertView = [[ZYAlertView alloc] initWithTitle:title message:message preferredStyle:ZYAlertViewStyleAlert];
+    ZYAlertAction *cancleA = [ZYAlertAction actionWithTitle:cancle style:ZYAlertActionStyleCancel handler:^(ZYAlertAction *action) {
+        cancleAction(action);
+    }];
+    ZYAlertAction *sureA = [ZYAlertAction actionWithTitle:sure style:sureStyle handler:^(ZYAlertAction *action) {
+        sureAciton(action);
+    }];
+    [alertView addActions:@[cancleA,sureA]];
+    [alertView show];
+}
+
 - (instancetype)initWithTitle:(NSString *)title
                       message:(NSString *)message
                preferredStyle:(ZYAlertViewStyle)preferredStyle
