@@ -822,6 +822,11 @@
     }
 }
 
+- (NSArray *)textFields
+{
+    return self.addTextFields;
+}
+
 - (void)addCustomView:(UIView *(^)(UIEdgeInsets *edges))handler
 {
     if (!handler) { return;};

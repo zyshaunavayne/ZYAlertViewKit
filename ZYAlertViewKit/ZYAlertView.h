@@ -163,7 +163,8 @@ typedef NS_ENUM(NSInteger, ZYAlertViewStyle) {
 @property (nonatomic, assign, readonly) ZYAlertViewStyle preferredStyle;
 /// 多个action的时候统一回调（注意：如果action本身实现了handler这里不会重复调用）
 @property (nonatomic, copy) void (^actionHandler)(ZYAlertAction *action);
-
+/// 获取输入框
+@property (nonatomic, copy, readonly) NSArray *textFields;
 /// 添加action
 /// @param action action
 - (void)addAction:(ZYAlertAction *)action;
